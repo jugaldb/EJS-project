@@ -34,5 +34,8 @@ app.get('/calcBMI/',function(req,res){
 	res.send('answer:'+z)
 })
 
+
+
+
 app.listen(8080||process.env.PORT);
 console.log('8080 is the magic port');
